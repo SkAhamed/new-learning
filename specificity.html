@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .first-heading {
+            color: brown;
+        }
+
+        h1 {
+            background-color: blue;
+            color: aqua;
+        }
+
+        #first {
+            color: black;
+        }
+
+        h1 {
+            color: #6d1b26;
+        }
+
+        h1 {
+            color: #90eea0;
+        }
+
+        p {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>1000</h3>
+    <h3>0100</h3>
+    <h1 id="first" class="first-heading">my heading number-1</h1>
+    <h1 class="first-heading" style="color: #2b7ae2">my heading number-2</h1>
+    <h1>my heading number-3</h1>
+    <h1>my heading number-4</h1>
+    <p>this is my text descirption- 1</p>
+    <p>this is my text descirption- 2</p>
+    <p>this is my text descirption- 3</p>
+    <p>this is my text descirption- 4</p>
+    <p>this is my text descirption- 5</p>
+</body>
+
+</html>
